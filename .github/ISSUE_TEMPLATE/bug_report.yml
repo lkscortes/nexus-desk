@@ -1,0 +1,60 @@
+name: Relato de bug
+description: Relate um problema reproduzível no Nexus Desk.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Não inclua prompts, respostas, tokens, IDs de conversa, caminhos pessoais,
+        capturas privadas ou dados de clientes. Remova informações sensíveis antes de enviar.
+  - type: textarea
+    id: summary
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o resultado observado e o esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Como reproduzir
+      description: Liste passos mínimos usando dados fictícios, se possível.
+      placeholder: |
+        1. Iniciar Nexus Desk
+        2. ...
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Sistema operacional
+      options:
+        - Windows
+        - macOS (experimental)
+        - Linux (experimental)
+        - Outro
+    validations:
+      required: true
+  - type: input
+    id: node
+    attributes:
+      label: Versão do Node.js
+      placeholder: "Saída de node --version"
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Cliente e versão
+      placeholder: "Codex, Claude Code ou não aplicável"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Mensagem de erro (redigida)
+      description: Remova nomes, tokens, caminhos e conteúdo de conversas.
+      render: text
+    validations:
+      required: false

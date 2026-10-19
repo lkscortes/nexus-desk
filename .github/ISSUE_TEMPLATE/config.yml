@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Reportar vulnerabilidade com privacidade
+    url: https://github.com/lkscortes/nexus-desk/security/advisories/new
+    about: Use um aviso privado de segurança; não publique detalhes exploráveis numa issue.

@@ -1,0 +1,10 @@
+.local/
+node_modules/
+*.log
+work/
+dist/
+*.tgz
+*.nexus-backup-*
+codex-hooks.preview.json
+PROPOSTA-OPEN-SOURCE.md
+docs/README.publico.proposto.md
