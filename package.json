@@ -9,7 +9,7 @@
   "homepage": "https://github.com/lkscortes/nexus-desk#readme",
   "bugs": { "url": "https://github.com/lkscortes/nexus-desk/issues" },
   "bin": { "nexus-desk": "bin/nexus-desk.mjs" },
-  "files": ["bin/", "lib/", "public/", "scripts/", "server.mjs", "install.ps1", "install.sh", "Instalar Nexus.cmd", "README.md", "LICENSE", "CHANGELOG.md", "SECURITY.md", "CONTRIBUTING.md", "docs/installation.md", "docs/architecture.md", "docs/privacy.md", "docs/troubleshooting.md", "docs/assets.md"],
+  "files": ["bin/", "lib/", "public/", "scripts/", "server.mjs", "install.ps1", "install.sh", "Instalar Nexus.cmd", "README.md", "LICENSE", "CHANGELOG.md", "SECURITY.md", "CONTRIBUTING.md", "docs/installation.md", "docs/architecture.md", "docs/privacy.md", "docs/troubleshooting.md", "docs/assets.md", "docs/images/"],
   "scripts": {
     "start": "node scripts/start.mjs",
     "setup": "node scripts/setup.mjs",

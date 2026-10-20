@@ -2,6 +2,10 @@
 
 Um painel local para acompanhar atividade de conversas e agentes de programação do Codex e Claude Code. Veja tarefas e delegações reais num quadro visual, com mascotes animadas. O Nexus observa o trabalho; a conversa e a execução continuam no aplicativo de origem.
 
+[![Nexus Desk em tela cheia, com mascotes de agentes, mesa de tarefas, equipe, eventos e quadro Kanban](docs/images/nexus-desk-overview.png)](docs/images/nexus-desk-overview.png)
+
+*Captura real do painel acompanhando Codex e Claude Code. Clique na imagem para ampliar.*
+
 **v0.2.0-alpha.1 · prévia pública.** Windows é a plataforma homologada primeiro. macOS e Linux são experimentais. A integração depende do cliente carregar e permitir as instruções e hooks configurados. O painel não garante observar todos os chats nem comprova conclusão apenas pela animação.
 
 ## Instalação rápida (Windows)
